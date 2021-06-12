@@ -73,7 +73,7 @@ Passport.deserializeUser((name, done) => {
         return done(null, false)
     }
 })
-const port = 3001
+const port = 3000
 var server = https.createServer(credentials, app);
 server.listen(port, () => {
     console.log(`app listen on port : ${port}`)
