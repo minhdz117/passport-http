@@ -5,8 +5,6 @@ const bodyParser = require('body-parser')
 const session = require('express-session')
 const Passport = require('passport')
 const LocalStrategy = require('passport-local').Strategy
-const passport = require('passport')
-const { Cookie } = require('express-session')
 const app = express()
 
 var user={
